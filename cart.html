@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trendy Drapes</title>
-    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="./cart.css" type="text/css">
     <script src="https://kit.fontawesome.com/dce1e5073b.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -53,22 +53,24 @@
 
             </div>
         </nav>
-        <!-- Home section -->
 
-        <section id="home" class="section-1">
-            <div class="home-left">
-                <h1>Welcome to Trendy Drapes</h1>
-                <h2>New Saree Collections 2025</h2>
-                <p>Discover the latest sarees with elegance and tradition. Handpicked quality fabrics, exquisite designs, and latest trends.</p>
-                <h4>Flat 20% off on first order</h4>
-                <button class="home-but"><a href="./saree.html">Shop Now</a> <i class="fa-solid fa-arrow-right"></i></button>
+        <!-- cart session -->
+        <div class="controler">
+            <div class="image">
+                <img src="./assets/cart-image.jfif" class="img">
             </div>
-            <div class="home-right">
-                <img src="./assets/home-banner.png" class="home-image">
-            </div>
-        </section>
+            <div class="content">
+                <h3>Your cart is empty</h3>
+                <p>Just relax, let us help you find some first-class products</p>
+                <button class="btn"><a href="./saree.html">Start Shopping</a></button>
+               </div>
 
-    </main>
-    <script src="./script.js"></script>
-</body>
-</html>
+               <div id="addcart">
+               <button onclick="add()"><a href="./buy.html"></a></button>
+               </div>
+        </div>
+        </main>
+        <script src="./script.js"></script>
+        </body>
+        </html>
+        
