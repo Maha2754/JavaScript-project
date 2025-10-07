@@ -205,6 +205,7 @@ nav{
     height:30px;
     color:#c2185b;
     border:2px solid #c2185b;
+    cursor: pointer;
 
 }
 .buy{
@@ -213,6 +214,8 @@ nav{
     background-color: #c2185b;
     color: white; 
     border: none;
+    cursor: pointer;
+
 }
 .left-controler{
     display: flex;

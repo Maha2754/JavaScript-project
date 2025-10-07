@@ -23,7 +23,7 @@ function down2(){
     document.getElementById('img').style.backgroundImage="url('./assets/3rd-saree-option2.jpg')"
 }
 
-//Fouth buy
+//Fourth buy
 function up3(){
     document.getElementById('img').style.backgroundImage="url('./assets/4th-saree-option.jpg')"
 }
@@ -32,19 +32,6 @@ function down3(){
 }
 
 
-//Add cart  buy.html
-// let addcart=document.getElementById('addcart')
+//buy .html add card
 
-// function add(){
-//     let adding=document.createElement('p')
-//     // add.backgroundImage=url("./assets/saree-1-girl.jpg");
-//     adding.textContent="hello"
-//     addcart.append(adding)
 
-// }
-var  addcart=document.getElementById('addcart')
-function add(){
-var para=document.createElement('p')
-para.innerHTML="Hello"
-addcart.append(para)
-}
